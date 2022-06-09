@@ -44,7 +44,7 @@ public class ControlerFuncionario {
 		}catch(Exception e) {
 			return new RespostaModelo(e.getMessage());
 		}
-	}
+	}  
 	@RequestMapping(value="/funcionario", method = RequestMethod.PUT)
 	public @ResponseBody RespostaModelo atualizar(@RequestBody ModeloFuncionario funcionario) {
 		
